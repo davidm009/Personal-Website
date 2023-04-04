@@ -1,0 +1,94 @@
+/* David Madueme 12/5/2022 */
+body {
+	background-color: yellow;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%
+}
+
+.homelogo {
+	float: right;
+}
+
+.center {
+	text-align: center;
+	padding: 2%
+}
+
+.space {
+	padding: 2%;
+}
+
+nav {
+	font-weight: bold;
+	padding: 2%;
+	display: flex;
+
+}
+
+.linkspace {
+	margin-right: 1%;
+}
+
+fieldset {
+	background-color: lightblue;
+	font-weight: bold;
+	width: 80%;
+	margin: auto;
+}
+
+header, main, img, h2 {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	margin: auto;
+	width: 80%
+}
+
+main {
+	margin: auto;
+}
+
+footer {
+	width: 80%;
+	margin: auto;
+}
+
+
+.divflex {
+	display: flex;
+	padding: 1%
+}
+
+/* Laptops and Desktops */
+
+@media screen and (min-width: 992px) {
+	nav {
+	background-color: lightblue;
+	}
+}
+
+/*Small Phones and tablet devices */
+@media screen and (max-width: 768px) {
+	main {
+		font-size: 80%;
+	}
+	body {
+		width: 200%;
+	}
+	footer {
+		width: 200%;
+	}
+}
+
+
+
+
+
+	
+
+
+
+
+
